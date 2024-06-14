@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url('../images/bg-pattern-top.svg'),url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -17.75rem top -31.875rem, right -14.375rem bottom -35.625rem;
+
+}
+
+.wrapper {
+  margin-top: 170px;
+  height: 375px;
+  width: 350px;
+  box-sizing: border-box;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-position: top;
+  background-size: contain;
+  position: relative;
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+  padding-bottom: 25px;
+}
+.profile > img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.name-age {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.name-age :first-child {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.name-age :nth-child(2) {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+.profile > p {
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+.sepration {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-top: none;
+}
+.stats {
+  padding-top: 25px;
+}
+
+.stats ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stats ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats ul li :first-child {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.stats ul li :nth-child(2) {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}

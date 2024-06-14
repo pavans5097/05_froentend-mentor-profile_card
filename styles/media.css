@@ -1,0 +1,10 @@
+@media (max-width:1200px){
+    body{
+        background-position: left -40.75rem top -30.875rem, right -40.375rem bottom -34.625rem;
+    }
+}
+@media (max-width:450px){
+    body{
+        background-position:left -47.75rem top -32.875rem, right -46.375rem bottom -40.625rem;
+    }
+}
